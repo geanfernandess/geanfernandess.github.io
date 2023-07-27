@@ -251,7 +251,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #2c2c2d;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -10925,13 +10925,13 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  /* margin-right: 1.5rem; */
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10944,13 +10944,18 @@ p.lead {
   font-size: 3rem;
 }
 
+.ancora {
+  padding-left: 0.3rem;
+  text-decoration: none;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -10969,4 +10974,17 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4CAF50;
+  transition: width 0.3s;
 }
